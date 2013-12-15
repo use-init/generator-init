@@ -8,6 +8,11 @@
     "normalize-scss": "~2.1.2",
     "modernizr": "~2.7.1",
     "requirejs": "~2.1.9",
+    <% if (cssPreprocessor === 'Sass') { %>
     "sass-mixins": "~0.6.0"
+    <% } %>
+    <% if (cssPreprocessor === 'Less') { %>
+    "lesshat": "~2.0.0"
+    <% } %>
   }
 }
