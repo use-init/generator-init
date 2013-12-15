@@ -4,7 +4,7 @@ A generator for [INIT](http://use-init.com).
 
 _Work in progress._
 
-To try it out type in the following in your command line:
+To try it out type in the following into your command line:
 
 ```js
 npm install -g yo
