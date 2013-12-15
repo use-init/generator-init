@@ -40,11 +40,11 @@ InitGenerator.prototype.askFor = function askFor() {
   },
   {
     name: 'email',
-    message: 'What is your email address? (otpional)'
+    message: 'What is your email address? (optional)'
   },
   {
     name: 'url',
-    message: 'What is the url of your homepage? (otpional)'
+    message: 'What is the url of your homepage? (optional)'
   },
   {
     name: 'role',
