@@ -165,7 +165,7 @@ InitGenerator.prototype.js = function js() {
 };
 
 InitGenerator.prototype.authors = function authors() {
-  this.template('AUTHORS', 'AUTHORS');
+  this.template('_AUTHORS', 'AUTHORS');
 };
 
 InitGenerator.prototype.ico = function ico() {
@@ -174,7 +174,7 @@ InitGenerator.prototype.ico = function ico() {
 };
 
 InitGenerator.prototype.contributing = function contributing() {
-  this.template('CONTRIBUTING.md', 'CONTRIBUTING.md');
+  this.template('_CONTRIBUTING.md', 'CONTRIBUTING.md');
 };
 
 InitGenerator.prototype.crossdomain = function crossdomain() {
