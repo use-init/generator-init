@@ -18,15 +18,15 @@ npm install -g generator-init
 yo init
 ```
 
-**Sub-Generator init:page**
+#### Sub-Generator init:page
 
 Use `yo init:page '<pagename>'` to create a new page snippet for INITs simple static page generator.
 
-**Sub-Generator init:module**
+####Sub-Generator init:module
 
 Use `yo init:module 'modulename'` to scaffold a new JavaScript module.
 
-**Sub-Generator init:jqueryplugin**
+#### Sub-Generator init:jqueryplugin
 
 Use `yo init:jqueryplugin 'pluginame'` to scaffold a new jQuery Plugin with the name `jquery.<pluginname>.js`.
 
