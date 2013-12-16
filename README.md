@@ -10,7 +10,7 @@ A Yeoman generator for [INIT](http://use-init.com).
 
 ## Main Generator
 
-To try it out type in the following into your command line:
+Install and use the generator by typing the following into the command line:
 
 ```sh
 npm install -g yo
