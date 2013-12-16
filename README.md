@@ -1,4 +1,4 @@
-# generator-init v0.0.1
+# generator-init v0.0.2
 
 A generator for [INIT](http://use-init.com).
 
