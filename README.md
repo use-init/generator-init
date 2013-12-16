@@ -4,6 +4,8 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
+Maintained by: [@kahlil](https://github.com/kahlil)
+
 A Yeoman generator for [INIT](http://use-init.com).
 
 > INIT is based upon HTML5 Boilerplate and adds more structure for SCSS and JavaScript files, includes build tasks and a whole lot more.
