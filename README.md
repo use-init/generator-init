@@ -1,6 +1,8 @@
-# generator-init v0.0.2
+# generator-init v0.0.2 
 
 <img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200" align="right">
+
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 A Yeoman generator for [INIT](http://use-init.com).
 
