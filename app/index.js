@@ -4,10 +4,9 @@ var InitGenerator;
 var initHelpers = require('../lib/initgenerator.js');
 var util        = require('util');
 var path        = require('path');
-var fs          = require('fs');
 var yeoman      = require('yeoman-generator');
 
-InitGenerator = module.exports = function InitGenerator(args, options, cnf) {
+InitGenerator = module.exports = function InitGenerator(args, options) {
   var packageJsonPath;
   yeoman.generators.Base.apply(this, arguments);
 
