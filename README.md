@@ -24,6 +24,10 @@ yo init:page '<pagename>'
 ```
 to create a new page snippet for INITs simple static page generator.
 
+## Advice
+
+![SCAFFOLD ALL THE THINGS](https://raw.github.com/use-init/generator-init/master/scaffoldallthethings.png)
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
