@@ -6,7 +6,7 @@
 
 A Yeoman generator for [INIT](http://use-init.com).
 
-_Work in progress._
+> INIT is based upon HTML5 Boilerplate and adds more structure for SCSS and JavaScript files, includes build tasks and a whole lot more.
 
 ## Main Generator
 
