@@ -1,6 +1,6 @@
 # generator-init v0.0.2
 
-A generator for [INIT](http://use-init.com).
+A Yeoman generator for [INIT](http://use-init.com).
 
 _Work in progress._
 
