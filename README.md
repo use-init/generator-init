@@ -8,7 +8,7 @@ _Work in progress._
 
 To try it out type in the following into your command line:
 
-```js
+```bash
 npm install -g yo
 npm install -g generator-init
 yo init
@@ -17,7 +17,7 @@ yo init
 
 Use the following command
 
-```js
+```bash
 yo init:page '<pagename>'
 ```
 to create a new page snippet for INITs simple static page generator.
