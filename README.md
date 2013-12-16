@@ -17,12 +17,15 @@ yo init
 ```
 ## Sub-Generator Page
 
-Use the following command
+Use `yo init:page '<pagename>'` to create a new page snippet for INITs simple static page generator.
 
-```sh
-yo init:page '<pagename>'
-```
-to create a new page snippet for INITs simple static page generator.
+## Sub-Generator Module
+
+Use `yo init:module 'modulename'` to scaffold a new JavaScript module.
+
+## Sub-Generator jQuery Plugin
+
+Use `yo init:jqueryplugin 'pluginame'` to scaffold a new jQuery Plugin with the name `jquery.<pluginname>.js`.
 
 ## Advice
 
