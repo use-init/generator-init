@@ -1,5 +1,7 @@
 # generator-init v0.0.2
 
+<img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200">
+
 A Yeoman generator for [INIT](http://use-init.com).
 
 _Work in progress._
