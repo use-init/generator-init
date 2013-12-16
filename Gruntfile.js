@@ -7,6 +7,8 @@
 'use strict';
 
 module.exports = function (grunt) {
+  // Load all grunt tasks matching the `grunt-*` pattern.
+  require('load-grunt-tasks')(grunt);
 
   // Project configuration.
   grunt.initConfig({
@@ -38,16 +40,10 @@ module.exports = function (grunt) {
 
   });
 
-  // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-mocha-test');
-
   // Whenever the "test" task is run, first clean the "temp" dir, then run this
   // plugin's task(s), then test the result.
   grunt.registerTask('test', ['clean', 'mochaTest']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['clean', 'jshint', 'mochaTest']);
-
 };

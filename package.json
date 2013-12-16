@@ -29,7 +29,8 @@
     "grunt": "~0.4.2",
     "grunt-mocha-test": "~0.8.1",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.7.2"
+    "grunt-contrib-jshint": "~0.7.2",
+    "load-grunt-tasks": "~0.2.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
