@@ -26,7 +26,9 @@ to create a new page snippet for INITs simple static page generator.
 
 ## Advice
 
-<img src="https://raw.github.com/use-init/generator-init/master/scaffoldallthethings.png" alt="SCAFFOLD ALL THE THINGS!!1!" title="SCAFFOLD ALL THE THINGS!!1!" width="500" height="355" align="center">
+<p align="center">
+  <img src="https://raw.github.com/use-init/generator-init/master/scaffoldallthethings.png" alt="SCAFFOLD ALL THE THINGS!!1!" title="SCAFFOLD ALL THE THINGS!!1!" width="500" height="355" align="center">
+</p>
 
 ## Contributing
 
