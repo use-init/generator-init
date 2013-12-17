@@ -1,5 +1,5 @@
 'use strict';
-var util = require('util');
+var util   = require('util');
 var yeoman = require('yeoman-generator');
 
 var ModuleGenerator = module.exports = function ModuleGenerator() {
@@ -13,5 +13,5 @@ ModuleGenerator.prototype.module = function module() {
 };
 
 ModuleGenerator.prototype.test = function test() {
-  this.copy('example.spec.js', 'test/specs/' + this.name + '.spec.js');
+  this.template('example.spec.js', 'test/specs/' + this.name + '.spec.js');
 };
