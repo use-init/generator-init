@@ -9,5 +9,5 @@ var JquerypluginGenerator = module.exports = function JquerypluginGenerator() {
 util.inherits(JquerypluginGenerator, yeoman.generators.NamedBase);
 
 JquerypluginGenerator.prototype.boilerplate = function boilerplate() {
-  this.copy('jquery.plugin.js', 'js/plugins/jquery.' + this.name + '.js');
+  this.template('jquery.plugin.js', 'js/plugins/jquery.' + this.name + '.js');
 };
