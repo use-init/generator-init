@@ -86,7 +86,9 @@ var expected = [
 
 ];
 
-describe('init generator', function () {
+
+// ---- Main generator
+describe('main generator', function () {
 
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
@@ -160,6 +162,38 @@ describe('init generator', function () {
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
       helpers.assertFiles(expectedLESS);
+      done();
+    });
+
+  });
+
+});
+
+// ---- Page sub-generator
+
+describe('page sub-generator', function () {
+  beforeEach(function (done) {
+    helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
+      if (err) {
+        return done(err);
+      }
+
+      this.app = helpers.createGenerator('init:page', [
+        '../../page'
+      ], ['test-page']);
+      done();
+    }.bind(this));
+  });
+
+  it('creates expected files for the page sub-generator', function (done) {
+
+    var expectedSCSS = [
+      'templates/test-page.html'
+    ];
+
+    this.app.options['skip-install'] = true;
+    this.app.run({}, function () {
+      helpers.assertFiles(expectedSCSS);
       done();
     });
 
