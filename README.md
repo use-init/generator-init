@@ -7,11 +7,11 @@
 [![NPM version](https://badge.fury.io/js/generator-init.png)](http://badge.fury.io/js/generator-init)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Maintained by: [@kahlil](https://github.com/kahlil)
-
-A [Yeoman](http://yeoman.io) generator for [INIT](http://use-init.com).
+A [Yeoman](http://yeoman.io) generator for [INIT](http://use-init.com) [v1.0.2](https://github.com/use-init/init/releases/tag/v1.0.2).
 
 > INIT is based upon HTML5 Boilerplate and adds more structure for SCSS and JavaScript files, includes build tasks and a whole lot more.
+
+Maintained by: [@kahlil](https://github.com/kahlil)
 
 ## Main Generator
 
