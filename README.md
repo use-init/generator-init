@@ -2,7 +2,10 @@
 
 <img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200" align="right">
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/use-init/generator-init/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Build Status](https://travis-ci.org/use-init/generator-init.png)](https://travis-ci.org/use-init/generator-init) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/use-init/generator-init/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Build Status](https://travis-ci.org/use-init/generator-init.png)](https://travis-ci.org/use-init/generator-init)
+[![NPM version](https://badge.fury.io/js/generator-init.png)](http://badge.fury.io/js/generator-init)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Maintained by: [@kahlil](https://github.com/kahlil)
 
