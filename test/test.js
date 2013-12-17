@@ -187,13 +187,13 @@ describe('page sub-generator', function () {
 
   it('creates expected files for the page sub-generator', function (done) {
 
-    var expectedSCSS = [
+    var expected = [
       'templates/test-page.html'
     ];
 
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
-      helpers.assertFiles(expectedSCSS);
+      helpers.assertFiles(expected);
       done();
     });
 
