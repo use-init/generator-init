@@ -220,7 +220,8 @@ describe('module sub-generator', function () {
   it('creates expected files for the module sub-generator', function (done) {
 
     var expected = [
-      'js/modules/test.js'
+      'js/modules/test.js',
+      'test/specs/test.spec.js'
     ];
 
     this.app.options['skip-install'] = true;
