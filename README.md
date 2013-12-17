@@ -2,7 +2,7 @@
 
 <img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200" align="right">
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://travis-ci.org/use-init/generator-init.png)](https://travis-ci.org/use-init/generator-init) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Maintained by: [@kahlil](https://github.com/kahlil)
 
