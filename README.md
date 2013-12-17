@@ -1,4 +1,4 @@
-# generator-init v0.0.2 
+# generator-init v0.1.0
 
 <img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200" align="right">
 
