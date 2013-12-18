@@ -16,6 +16,11 @@ module.exports = function (grunt) {
       all: [
         'Gruntfile.js',
         'app/index.js',
+        'lib/*.js',
+        'page/index.js',
+        'module/index.js',
+        'jqueryplugin/index.js',
+        'page/index.js',
         '<%= mochaTest.test.src%>'
       ],
       options: {
