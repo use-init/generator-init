@@ -79,6 +79,11 @@ InitGenerator.prototype.askFor = function askFor() {
   }.bind(this));
 };
 
+InitGenerator.prototype.date = function date() {
+  var d = new Date();
+  this.date = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+};
+
 InitGenerator.prototype.projectfiles = function projectfiles() {
   this.copy('editorconfig', '.editorconfig');
   this.copy('jshintrc', '.jshintrc');
