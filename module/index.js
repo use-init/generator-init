@@ -8,6 +8,15 @@ var ModuleGenerator = module.exports = function ModuleGenerator() {
 
 util.inherits(ModuleGenerator, yeoman.generators.NamedBase);
 
+ModuleGenerator.prototype.getAuthor = function getAuthor(){
+	this.author = this.readFileAsString('AUTHORS');
+};
+
+ModuleGenerator.prototype.date = function date(){
+	var d = new Date();
+	this.date = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+}
+
 ModuleGenerator.prototype.module = function module() {
   this.copy('module.js', 'js/modules/' + this.name + '.js');
 };

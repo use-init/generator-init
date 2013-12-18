@@ -141,7 +141,8 @@ describe('main generator', function () {
   it('creates expected files for LESS preprocessor', function (done) {
 
     helpers.mockPrompt(this.app, {
-      'cssPreprocessor': 'LESS'
+      'cssPreprocessor': 'LESS',
+      'name': 'John Doe'
     });
 
     var expectedLESS = [
@@ -172,20 +173,10 @@ describe('main generator', function () {
 // ---- Page sub-generator
 
 describe('page sub-generator', function () {
-  beforeEach(function (done) {
-    helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
-      if (err) {
-        return done(err);
-      }
-
-      this.app = helpers.createGenerator('init:page', [
-        '../../page'
-      ], ['test-page']);
-      done();
-    }.bind(this));
-  });
 
   it('creates expected files for the page sub-generator', function (done) {
+
+    this.app = helpers.createGenerator('init:page', ['../../page'], ['test-page']);
 
     var expected = [
       'templates/test-page.html'
@@ -204,20 +195,10 @@ describe('page sub-generator', function () {
 // ---- Module sub-generator
 
 describe('module sub-generator', function () {
-  beforeEach(function (done) {
-    helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
-      if (err) {
-        return done(err);
-      }
-
-      this.app = helpers.createGenerator('init:module', [
-        '../../module'
-      ], ['test']);
-      done();
-    }.bind(this));
-  });
 
   it('creates expected files for the module sub-generator', function (done) {
+
+    this.app = helpers.createGenerator('init:module', ['../../module'], ['test']);
 
     var expected = [
       'js/modules/test.js',
@@ -237,20 +218,10 @@ describe('module sub-generator', function () {
 // ---- Jqueryplugin sub-generator
 
 describe('jqueryplugin sub-generator', function () {
-  beforeEach(function (done) {
-    helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
-      if (err) {
-        return done(err);
-      }
-
-      this.app = helpers.createGenerator('init:jqueryplugin', [
-        '../../jqueryplugin'
-      ], ['test']);
-      done();
-    }.bind(this));
-  });
 
   it('creates expected files for the jqueryplugin sub-generator', function (done) {
+
+    this.app = helpers.createGenerator('init:jqueryplugin', ['../../jqueryplugin'], ['test']);
 
     var expected = [
       'js/plugins/jquery.test.js'
