@@ -14,6 +14,7 @@ A [Yeoman](http://yeoman.io) generator for [INIT](http://use-init.com).
 Currently this generator scaffolds INIT [v1.0.2](https://github.com/use-init/init/releases/tag/v1.0.2).
 
 Maintained by: [@kahlil](https://github.com/kahlil)
+Contributors: [@sergiovilar](https://github.com/sergiovilar), [@drublic](https://github.com/drublic)
 
 ## Main Generator
 
