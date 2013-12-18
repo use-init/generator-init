@@ -4,8 +4,7 @@
  * @author <%= author %>
  * @date <%= date %>
  */
-
-define(['modules/<%= name %>'], function (module) {
+define(['modules/<%= name %>'], function (<%= name %>) {
   'use strict';
 
   // Test suite <%= name %>

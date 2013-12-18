@@ -4,12 +4,7 @@
  * @author <%= author %>
  * @date <%= date %>
  */
-<<<<<<< HEAD
 define(['modules/<%= name %>'], function (<%= name %>) {
-=======
-
-define(['modules/<%= name %>'], function (module) {
->>>>>>> Fixes some itens on #15
   'use strict';
 
   // Test suite <%= name %>
