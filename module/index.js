@@ -10,14 +10,14 @@ var ModuleGenerator = module.exports = function ModuleGenerator() {
 
 util.inherits(ModuleGenerator, yeoman.generators.NamedBase);
 
-ModuleGenerator.prototype.getAuthor = function getAuthor(){
+ModuleGenerator.prototype.getAuthor = function getAuthor() {
 	this.author = this.readFileAsString('AUTHORS');
 };
 
-ModuleGenerator.prototype.date = function date(){
+ModuleGenerator.prototype.date = function date() {
 	var d = new Date();
 	this.date = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
-}
+};
 
 ModuleGenerator.prototype.module = function module() {
   this.copy('module.js', 'js/modules/' + this.name + '.js');
@@ -28,7 +28,6 @@ ModuleGenerator.prototype.test = function test() {
 };
 
 ModuleGenerator.prototype.loadSpecs = function loadSpecs() {
-  var specsToLoad, specFileContent, specTpl;
   var specs       = [];
   var specsPath   = path.join(process.cwd(), 'test/specs');
 
@@ -37,11 +36,7 @@ ModuleGenerator.prototype.loadSpecs = function loadSpecs() {
     specs = specs.map(function cutFileending(specFile) {
       return specFile.replace('.js', '');
     });
-    specsToLoad     = '"' + specs.join('", "') + '"';
-    specTpl         = path.join(this.sourceRoot(), 'spec.js');
-    specFileContent = this.readFileAsString(specTpl);
-    specFileContent = specFileContent.replace('<%= specs %>', specsToLoad);
-
-    this.write(path.join(process.cwd(), 'test/spec.js'), specFileContent);
+    this.specs = '"' + specs.join('", "') + '"';
+    this.template(path.join(this.sourceRoot(), 'spec.js'), 'test/spec.js');
   }
 };

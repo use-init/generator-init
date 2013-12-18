@@ -1,9 +1,9 @@
 /*global describe, beforeEach, it*/
 'use strict';
 
-var path = require('path');
+var path    = require('path');
 var helpers = require('yeoman-generator').test;
-var assert = require('assert');
+var assert  = require('assert');
 
 var expected = [
 
@@ -198,11 +198,16 @@ describe('module sub-generator', function () {
 
   it('creates expected files for the module sub-generator', function (done) {
 
-    this.app = helpers.createGenerator('init:module', ['../../module'], ['test']);
+    var deps = ['../../module'];
+    var args = ['test'];
+    var opts = { 'force': true };
+
+    this.app = helpers.createGenerator('init:module', deps, args, opts);
 
     var expected = [
       'js/modules/test.js',
-      'test/specs/test.spec.js'
+      'test/specs/test.spec.js',
+      'test/spec.js'
     ];
 
     this.app.options['skip-install'] = true;
