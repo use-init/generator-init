@@ -2,7 +2,7 @@
  * An example specification for the example module
  * Loads the module and runs the test suite
  */
-define(['modules/<%= name %>'], function (module) {
+define(['modules/<%= name %>'], function (<%= name %>) {
   'use strict';
 
   // Test suite INIT
