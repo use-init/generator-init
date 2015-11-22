@@ -1,3 +1,7 @@
+# DEPPRECATION NOTE
+
+Please be aware that this tool is no longer maintained.
+
 # generator-init v0.1.2
 
 <img src="http://rawgithub.com/use-init/init/master/logo.svg" alt="INIT" title="INIT" width="200" align="right">
